@@ -1,13 +1,16 @@
+/* Page - Background Color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* CSS Box */
 * {
     box-sizing: border-box;
     padding: 22;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* Header CSS Formats */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,44 +18,46 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Header - Horioson Position and Font Size */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #c08448;
+/* Header - Color of "Seo" Letters inside the Word of Horiseon */
+.seo {
+    color: #d9dcd6;
 }
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    
+/* Header - Navigation Floated to the Right side of the Page */
+nav {
+    float: right;   
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
+/* Header - Each Link's CSS Formats */
+li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline color red;
-
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
+/* Header - Link's Color with no Decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Header - Paragraph Font Size */
 p {
     font-size: 16px;
 }
 
+/* Section - of Page */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +67,46 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main - Content of the Page*/
 main.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Main_Article - All Articles Decoration and Formating */
+.article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main_Article - Images are Floated Left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Main_Article - Image is Floated Right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main_Article - Size of Images */
+.article img {
+    max-height: 200px;
+}
+/* Main_Article - Margin & Font Size */
+.article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Asside - CSS Formating */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,108 +118,26 @@ main.content {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Asside_Article - Margin & Color */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Asside_Article - Margin & Text Allignment */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Asside_Article - Images Sizes */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer - of Page */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,6 +145,7 @@ main.content {
     text-align: center;
 }
 
-.footer h2 {
+/* Footer - First Sentence's Size */
+.footer h4 {
     font-size: 20px;
 }
