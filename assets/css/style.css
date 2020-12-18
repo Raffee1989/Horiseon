@@ -4,7 +4,7 @@ body {
 }
 
 /* CSS Box */
-* {
+*{
     box-sizing: border-box;
     padding: 22;
     margin: 0;
@@ -19,41 +19,40 @@ body {
 }
 
 /* Header - Horioson Position and Font Size */
-h1 {
+ .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Header - Color of "Seo" Letters inside the Word of Horiseon */
-.seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Header - Navigation Floated to the Right side of the Page */
-nav {
+.header nav {
     float: right;   
 }
 
 /* Header - Each Link's CSS Formats */
-li {
+.header nav li {
     display: inline-block;
     margin-left: 25px;
-    text-decoration: underline color red;
     list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 /* Header - Link's Color with no Decoration */
-a {
+.header nav div ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Header - Paragraph Font Size */
-p {
+/* Paragraphs Font Size */
+.header main aside footer p {
     font-size: 16px;
 }
 
@@ -73,40 +72,41 @@ main.content {
     display: inline-block;
     margin-left: 20px;
 }
-
-/* Main_Article - All Articles Decoration and Formating */
-.article {
+/* Main_Articles - Decoration and Formating */
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-/* Main_Article - Images are Floated Left */
-.float-left {
+/* Main_Article 1 & 3 - Images are Floated Left */
+.content article .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Main_Article - Image is Floated Right */
-.float-right {
+/* Main_Article 2- Image is Floated Right */
+.content article .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Main_Article - Size of Images */
-.article img {
+.content article img {
     max-height: 200px;
+    border: solid 1px;
 }
+
 /* Main_Article - Margin & Font Size */
-.article h2 {
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Asside - CSS Formating */
+/* Asside - CSS Box Formating */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,14 +114,15 @@ main.content {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
 /* Asside_Article - Margin & Color */
 .benefit {
     margin-bottom: 32px;
-    color: #ffffff;
+    
 }
 
 /* Asside_Article - Margin & Text Allignment */
@@ -142,10 +143,9 @@ main.content {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: center; 
 }
 
-/* Footer - First Sentence's Size */
-.footer h4 {
-    font-size: 20px;
+footer h4 {
+    font-size: 20px;  
 }
