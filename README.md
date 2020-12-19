@@ -14,9 +14,10 @@ I was provided with material like (HTML-CSS-Git) and some assets for an existing
 
 ### Additional Work
 Aside from the above criteria, I had to modify each HTML & CSS codes to make sure it runs as expected, therefore; 
-* The Search Engine Optimization link was not working properly, so I had to define an ID for it. 
+* The project had to be cloned from Gitlab to our local machine. 
+* HTML_Header_Navigation| The Search Engine Optimization link was not working properly, so I had to define an ID for it. 
 * I consolidated the CSS selectors and properties. 
-* I cleaned up some of the codes HTML and CSS files by removing multiple div selectors and class selectors with longer names, so it looks simpler and easier to read without making any changes or error to the appearance of the website. 
+* I cleaned up some of the codes in HTML and CSS files by removing multiple div selectors and class names with longer names, so it looks simpler and easier to read without making any changes or error to the appearance of the website. 
 * I commented on each HTML and CSS elements properly. 
 * I created a repository in GITHub with a unique name that contains all the materials.
 * The website had to deploy and load at live URL without any errors. 

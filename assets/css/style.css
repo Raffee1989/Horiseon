@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-/* Header CSS Formats */
+/* Header CSS Positioning */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,7 +34,7 @@ body {
     float: right;   
 }
 
-/* Header - Each Link's CSS Formats */
+/* Header - Each Link's CSS Positioning */
 .header nav li {
     display: inline-block;
     margin-left: 25px;
@@ -106,7 +106,7 @@ main.content {
     font-size: 36px;
 }
 
-/* Asside - CSS Box Formating */
+/* Asside - CSS Box Positioning */
 .benefits {
     margin-right: 20px;
     padding: 20px;
