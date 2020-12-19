@@ -12,7 +12,7 @@ I was provided with material like (HTML-CSS-Git) and some assets for an existing
     * Finds a concise, descriptive title for the website
 #
 
-### Additional Requirements
+### Additional Work
 Aside from the above criteria, I had to modify each HTML & CSS codes to make sure it runs as expected, therefore; 
 * The Search Engine Optimization link was not working properly, so I had to define an ID for it. 
 * I consolidated the CSS selectors and properties. 
@@ -20,6 +20,7 @@ Aside from the above criteria, I had to modify each HTML & CSS codes to make sur
 * I commented on each HTML and CSS elements properly. 
 * I created a repository in GITHub with a unique name that contains all the materials.
 * The website had to deploy and load at live URL without any errors. 
+* Added 1px border around the images inside the Main in CSS.
  #
 ### Mock-Up
 Below is the an appearance of the website. 
