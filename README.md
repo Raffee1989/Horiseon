@@ -22,10 +22,10 @@ Aside from the above criteria, I had to modify each HTML & CSS codes to make sur
 * The website had to deploy and load at live URL without any errors. 
  #
 ### Mock-Up
-Below is the final appearance of the website. 
+Below is the an appearance of the website. 
 
-![Horiseon Webpage](.assets/images/horiseon.png)
-
+![Horiseon Webpage](assets/images/horiseon.png)
+#
 Deployed Link: https://raffee1989.github.io/Horiseon-Social-Solution-Services/
 #
 ## Review
