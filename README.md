@@ -1,4 +1,4 @@
-# [Horiseon Social Solution Services](https://raffee1989.github.io/Horiseon-Social-Solution-Services/"Horiseon-Social-Solution-Services")
+# [Horiseon Social Solution Services](https://raffee1989.github.io/Horiseon-Social-Solution-Services/ "Horiseon-Social-Solution-Services")
 ## HTML-CSS-Git | Code Refactor
 ### Description:
 I was provided with material like (HTML-CSS-Git) and some assets for an existing Horiseon website. My job was to refactor their site and make sure it is more accessible. Web accessibility is one of the most important topics in designing websites. Each website should be accessible for all  groups of people, especially people with disability. Therefore I was given some list of specific criteria to make this happen. 
